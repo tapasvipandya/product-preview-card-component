@@ -118,3 +118,12 @@ body {
   cursor: pointer;
   background: #1a4032;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 375px) {
+  .preview-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
