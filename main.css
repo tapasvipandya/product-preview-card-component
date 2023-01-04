@@ -1,6 +1,6 @@
 /* Import Fonts */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -56,19 +56,21 @@ body {
   font-size: 14px;
   line-height: 23px;
   color: #6c7289;
-  width: 237px;
+  letter-spacing: 0.5px;
   margin-top: 24px;
 }
 
 .product-price {
   display: flex;
   display: -ms-flexbox;
-  margin-top: 29px;
+  margin-top: 25px;
   align-items: center;
+  font-family: "Fraunces", serif;
 }
 
 .discounted-price {
   font-family: "Fraunces", serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 2rem;
   line-height: 32px;
